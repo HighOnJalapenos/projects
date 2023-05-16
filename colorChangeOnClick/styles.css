@@ -65,6 +65,12 @@ a{
     position: relative;
 }
 
+.selected{
+    background-color: transparent;
+    color: hsl(205, 78%, 60%);
+    box-shadow: none;
+}
+
 a:active{
     color: hsl(205, 78%, 60%);
     top: 2px;
